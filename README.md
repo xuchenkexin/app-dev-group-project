@@ -52,3 +52,93 @@ Improve the efficiency and organization of the management process.
 - GitHub repository created
 - Members added as collaborators
 - Waiting for project topic
+
+  ### Pre-SDLC Findings
+
+#### Similar Systems
+
+1. Event Management System 
+This system is used to manage events, including registration, scheduling, and coordination. :contentReference[oaicite:0]{index=0}  
+
+2. Google Drive
+This system is used to store and share files online.   
+
+---
+
+#### Advantages
+
+Event Management System:  
+- Helps manage event information in one place  
+
+- Supports scheduling and coordination  
+
+Google Drive:  
+- Easy to use  
+
+- Accessible anywhere  
+
+---
+
+#### Disadvantages
+
+Event Management System:  
+- Focus only on events  
+
+- Does not include financial management   
+
+Google Drive:  
+- Only for file storage  
+
+- Not suitable for full management system  
+
+- No workflow or automation  
+
+---
+
+#### Our Improvement
+
+- Combine event management and financial management in one system  
+
+- Provide a more complete management platform  
+
+- Improve efficiency by reducing manual work  
+
+- Make data easier to manage and track
+
+  ### Initial Framework
+
+#### System Entities / Roles
+- Admin  
+  Manage the whole system and control data  
+
+- Staff
+  Manage activities and financial records  
+
+- User
+  View information and participate in activities  
+
+- Activity
+  Store event details such as date, time, and participants  
+
+- Financial Record
+  Store income and expense information  
+
+---
+
+#### Who Will Use the System 
+- Administrative staff  
+
+- Event organizers  
+
+- Finance staff   
+
+- Students or users  
+---
+
+#### System Idea
+The system will be a web-based platform where users can manage activities, financial records, and administrative tasks in one place.   
+
+Users can log in to the system, create activities, record financial data, and view information easily.  
+
+The system will help improve efficiency and reduce manual work.  
+
