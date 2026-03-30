@@ -9,25 +9,25 @@
 ## Project Title
  SoFea Management System
 
-## Project Description
+## Project Description 
 This project aims to develop a  SoFea Management System to support daily administrative work, covering event coordination, financial control and other related business processes. 
 By building an integrated management platform, it will standardize work processes, reduce repetitive manual operations, improve overall operational efficiency, and make various data easier to organize, store and query.
 
-## Company Profile
+## Company Profile 
 
-### Background（背景）
+### Background 
 It is an organization responsible for managing activities, financial records, and daily administrative tasks.  
 
 Currently, these tasks are often done manually or using different platforms, which leads to low efficiency and makes management difficult.  
 
 ---
 
-### Vision（愿景）
+### Vision 
 Improve the efficiency and organization of the management process.  
 
 ---
 
-### Mission（使命）
+### Mission 
 - Manage activities and financial records in one system  
 
 - Reduce manual operations  
@@ -36,7 +36,7 @@ Improve the efficiency and organization of the management process.
 
 ---
 
-### Services（服务）
+### Services 
 - Event Management 
 - Financial Management  
 - Record Management 
