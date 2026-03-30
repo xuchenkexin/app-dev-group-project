@@ -107,22 +107,6 @@ Google Drive:
 
   ### Initial Framework
 
-#### System Entities / Roles
-- Admin  
-  Manage the whole system and control data  
-
-- Staff
-  Manage activities and financial records  
-
-- User
-  View information and participate in activities  
-
-- Activity
-  Store event details such as date, time, and participants  
-
-- Financial Record
-  Store income and expense information  
-
 ---
 
 #### Who Will Use the System 
