@@ -7,7 +7,7 @@
 - XU CHENKEXIN
 
 ## Project Title
- SoFea Management System（Manage Domain）
+ SoFea Management System（Management Domain）
 
 ## Project Description 
 This project aims to develop a  SoFea Management System to support daily administrative work, covering event coordination, financial control and other related business processes. 
