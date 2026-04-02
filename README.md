@@ -53,12 +53,12 @@ Improve the efficiency and organization of the management process.
 - Members added as collaborators
 - Waiting for project topic
 
-  ### Pre-SDLC Findings
+### Pre-SDLC Findings
 
 #### Similar Systems
 
 1. Event Management System 
-This system is used to manage events, including registration, scheduling, and coordination. :contentReference[oaicite:0]{index=0}  
+This system is used to manage events, including registration, scheduling, and coordination.  
 
 2. Google Drive
 This system is used to store and share files online.   
