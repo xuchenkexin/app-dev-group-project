@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoFea — Student Organization Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body, #root { height: 100%; width: 100%; }
+    body { font-family: 'Inter', sans-serif; background: #F0F4F8; overflow: hidden; }
+    * { -webkit-font-smoothing: antialiased; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #D0DDE8; border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: #B5D4F4; }
+
+    /* Modal animation */
+    @keyframes modalIn {
+      from { opacity: 0; transform: scale(0.95) translateY(8px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    /* Focus styles */
+    button:focus-visible { outline: 2px solid #378ADD; outline-offset: 2px; }
+    input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 3px rgba(55,138,221,0.15); }
+
+    /* Button hover overlay */
+    button { transition: opacity 0.12s, background 0.12s; }
+    button:hover:not(:disabled) { opacity: 0.88; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Design system primitives: colors, icons, shared UI components -->
+  <script type="text/babel" src="sofea-globals.jsx"></script>
+
+  <!-- Sidebar (shared across all pages) -->
+  <script type="text/babel" src="sofea-sidebar.jsx"></script>
+
+  <!-- All modal overlays -->
+  <script type="text/babel" src="sofea-modals.jsx"></script>
+
+  <!-- Page 1: Login · Page 2: Dashboard -->
+  <script type="text/babel" src="sofea-pages-1-2.jsx"></script>
+
+  <!-- Page 3: Activity List · Page 4: Activity Detail · Page 5: Attendance -->
+  <script type="text/babel" src="sofea-pages-3-5.jsx"></script>
+
+  <!-- Page 6: Finance · Page 7: Record Transaction · Page 8: Audit Report · Page 9: Announcements -->
+  <script type="text/babel" src="sofea-pages-6-9.jsx"></script>
+
+  <!-- Main app router + sample data -->
+  <script type="text/babel" src="sofea-app.jsx"></script>
+  <!-- Bundler thumbnail: shown while unpacking -->
+  <template id="__bundler_thumbnail" data-bg-color="#0C447C">
+    <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+      <!-- Sidebar -->
+      <rect x="0" y="0" width="28" height="80" fill="#0C447C"/>
+      <!-- Logo block -->
+      <rect x="6" y="8" width="10" height="10" rx="2" fill="#185FA5"/>
+      <!-- Nav items -->
+      <rect x="6" y="26" width="16" height="3" rx="1.5" fill="rgba(255,255,255,0.5)"/>
+      <rect x="6" y="33" width="16" height="3" rx="1.5" fill="rgba(255,255,255,0.3)"/>
+      <rect x="6" y="40" width="16" height="3" rx="1.5" fill="rgba(255,255,255,0.3)"/>
+      <rect x="6" y="47" width="16" height="3" rx="1.5" fill="rgba(255,255,255,0.3)"/>
+      <!-- Page background -->
+      <rect x="28" y="0" width="92" height="80" fill="#F0F4F8"/>
+      <!-- Stat cards row -->
+      <rect x="33" y="14" width="18" height="14" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <rect x="54" y="14" width="18" height="14" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <rect x="75" y="14" width="18" height="14" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <rect x="96" y="14" width="18" height="14" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <!-- Icon dots -->
+      <rect x="36" y="17" width="5" height="5" rx="1" fill="#E6F1FB"/>
+      <rect x="57" y="17" width="5" height="5" rx="1" fill="#EAF3DE"/>
+      <rect x="78" y="17" width="5" height="5" rx="1" fill="#E6F1FB"/>
+      <rect x="99" y="17" width="5" height="5" rx="1" fill="#FAEEDA"/>
+      <!-- Two col cards -->
+      <rect x="33" y="32" width="38" height="40" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <rect x="74" y="32" width="40" height="40" rx="2" fill="#fff" stroke="#D0DDE8" stroke-width="0.5"/>
+      <!-- Card content lines -->
+      <rect x="36" y="36" width="20" height="2" rx="1" fill="#0C447C" opacity="0.6"/>
+      <rect x="36" y="41" width="30" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="36" y="45" width="30" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="36" y="49" width="25" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="36" y="53" width="28" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="77" y="36" width="20" height="2" rx="1" fill="#0C447C" opacity="0.6"/>
+      <rect x="77" y="41" width="32" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="77" y="45" width="28" height="1.5" rx="0.75" fill="#D0DDE8"/>
+      <rect x="77" y="49" width="30" height="1.5" rx="0.75" fill="#D0DDE8"/>
+    </svg>
+  </template>
+</body>
+</html>
