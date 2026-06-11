@@ -18,6 +18,27 @@ Live Demo: https://xuchenkexin.github.io/app-dev-group-project/
 
 ## Source Code
 
+### Module to Frontend & Backend Script Mapping
+
+#### Xu Chenkexin
+
+| Module | Frontend | Backend |
+|--------|----------|---------|
+| Activity Management | [ActivitiesPage.jsx](sofeaupdated/sofea-out/src/pages/activities/ActivitiesPage.jsx) | [activityController.js](sofeaupdated/sofea-backend/src/controllers/activityController.js) / [activityModel.js](sofeaupdated/sofea-backend/src/models/activityModel.js) / [activities.js](sofeaupdated/sofea-backend/src/routes/activities.js) |
+| Announcement Management | [AnnouncementsPage.jsx](sofeaupdated/sofea-out/src/pages/announcements/AnnouncementsPage.jsx) | [announcementController.js](sofeaupdated/sofea-backend/src/controllers/announcementController.js) / [announcementModel.js](sofeaupdated/sofea-backend/src/models/announcementModel.js) / [announcements.js](sofeaupdated/sofea-backend/src/routes/announcements.js) |
+
+#### Zhang Yihan
+
+| Module | Frontend | Backend |
+|--------|----------|---------|
+| Authentication | [LoginPage.jsx](sofeaupdated/sofea-out/src/pages/LoginPage.jsx) | [authController.js](sofeaupdated/sofea-backend/src/controllers/authController.js) / [userModel.js](sofeaupdated/sofea-backend/src/models/userModel.js) / [auth.js](sofeaupdated/sofea-backend/src/routes/auth.js) |
+| User Management & Dashboard | [UsersPage.jsx](sofeaupdated/sofea-out/src/pages/users/UsersPage.jsx) / [Dashboard.jsx](sofeaupdated/sofea-out/src/pages/Dashboard.jsx) | [registrationController.js](sofeaupdated/sofea-backend/src/controllers/registrationController.js) / [dashboardController.js](sofeaupdated/sofea-backend/src/controllers/dashboardController.js) / [users.js](sofeaupdated/sofea-backend/src/routes/users.js) / [dashboard.js](sofeaupdated/sofea-backend/src/routes/dashboard.js) |
+
+#### Yang Dengkai
+
+| Module | Frontend | Backend |
+|--------|----------|---------|
+| Financial Management | [FinancePage.jsx](sofeaupdated/sofea-out/src/pages/finance/FinancePage.jsx) | [financialControll
 
 
 
