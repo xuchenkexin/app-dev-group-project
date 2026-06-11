@@ -38,7 +38,9 @@ Live Demo: https://xuchenkexin.github.io/app-dev-group-project/
 
 | Module | Frontend | Backend |
 |--------|----------|---------|
-| Financial Management | [FinancePage.jsx](sofeaupdated/sofea-out/src/pages/finance/FinancePage.jsx) | [financialControll
+| Financial Management | [FinancePage.jsx](sofeaupdated/sofea-out/src/pages/finance/FinancePage.jsx) | [financialController.js](sofeaupdated/sofea-backend/src/controllers/financialController.js) <br> [transactionModel.js](sofeaupdated/sofea-backend/src/models/transactionModel.js) <br> [financial.js](sofeaupdated/sofea-backend/src/routes/financial.js) |
+| Attendance / Check-in | [CheckinPage.jsx](sofeaupdated/sofea-out/src/pages/checkin/CheckinPage.jsx) | [attendanceController.js](sofeaupdated/sofea-backend/src/controllers/attendanceController.js) <br> [attendanceModel.js](sofeaupdated/sofea-backend/src/models/attendanceModel.js) <br> [attendance.js](sofeaupdated/sofea-backend/src/routes/attendance.js) <br> [checkin.js](sofeaupdated/sofea-backend/src/routes/checkin.js) |
+| Audit | [AuditPage.jsx](sofeaupdated/sofea-out/src/pages/audit/AuditPage.jsx) | — |
 
 
 
