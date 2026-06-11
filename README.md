@@ -18,19 +18,8 @@ Live Demo: https://xuchenkexin.github.io/app-dev-group-project/
 
 ## Source Code
 
-The `source-code` folder contains the React-based source files of the SoFea Management System.
 
-Main files include:
 
-- `sofea-app.jsx` – main application logic and routing
-- `sofea-globals.jsx` – shared UI components and design style
-- `sofea-sidebar.jsx` – sidebar navigation
-- `sofea-modals.jsx` – modal windows and popups
-- `sofea-pages-1-2.jsx` – login page and dashboard
-- `sofea-pages-3-5.jsx` – activity management pages
-- `sofea-pages-6-9.jsx` – finance and announcement pages
-
-The live demo is deployed using `index.html`.
 
 ## Company Profile 
 
