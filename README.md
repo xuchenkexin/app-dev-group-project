@@ -14,7 +14,7 @@ This project aims to develop a  SoFea Management System to support daily adminis
 By building an integrated management platform, it will standardize work processes, reduce repetitive manual operations, improve overall operational efficiency, and make various data easier to organize, store and query.
 ## System Prototype
 
-Live Demo: https://xuchenkexin.github.io/app-dev-group-project/
+Live Demo: [https://xuchenkexin.github.io/app-dev-group-project/](https://xuchenkexin.github.io/app-dev-group-project/)
 
 ## Source Code
 
